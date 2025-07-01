@@ -23,7 +23,7 @@ const mobvariants={
                 Assalamu Alaikum.I am Towfiq
             </motion.h1>
             <div className="flex flex-col items-start ">
-                <motion.p className="text-5xl font-medium text-neutral-400"
+                <motion.p className="text-5xl font-medium"
                 variants={pcvariants}
                 initial="hidden"
                 animate="visible"
@@ -36,7 +36,7 @@ const mobvariants={
                     <FlipWords words={words}
                     className="font-black text-white text-8xl"/>
                 </motion.div>
-                <motion.p className="text-4xl font-medium text-neutral-300"
+                <motion.p className="text-4xl font-medium"
                 variants={pcvariants}
                 initial="hidden"
                 animate="visible"
@@ -53,7 +53,7 @@ const mobvariants={
             Assalamu Alaikum,I am Towfiq.
         </motion.p>
         <div>
-            <motion.p className="text-5xl font-black text-neutral-400"
+            <motion.p className="text-5xl font-black "
             variants={mobvariants}
             initial="hidden"
             animate="visible"
@@ -69,7 +69,7 @@ const mobvariants={
                 <FlipWords words={words}
                 className="font-black text-white text-7xl ml-5"/>
             </motion.div>    
-            <motion.p className="text-neutral-400 text-4xl"variants={mobvariants}
+            <motion.p className=" text-4xl"variants={mobvariants}
             initial="hidden"
             animate="visible"
             transition={{delay:1.8}}
