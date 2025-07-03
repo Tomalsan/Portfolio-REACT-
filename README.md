@@ -3,7 +3,7 @@ Welcome to my personal developer portfolio!
 Built with React, Vite, and Tailwind CSS, this site showcases my journey, projects, and passion for modern web development — including interactive 3D models and creative UI concepts.
 
 🌟 Live Demo
-Check out the live site →
+Check out the live site → https://portfolio-react-iota-eight.vercel.app/
 
 📱 Preview
 <<table>
