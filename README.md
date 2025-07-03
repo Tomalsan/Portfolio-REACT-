@@ -1,4 +1,4 @@
-🚀 Towfiq Ul Iqbal Tomal — Portfolio
+
 Welcome to my personal developer portfolio!
 Built with React, Vite, and Tailwind CSS, this site showcases my journey, projects, and passion for modern web development — including interactive 3D models and creative UI concepts.
 
