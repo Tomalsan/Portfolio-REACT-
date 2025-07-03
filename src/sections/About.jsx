@@ -20,15 +20,23 @@ const About = () => {
           </div>
           {/* Grid 2 */}
           <div className="grid-default-color grid-2">
-            <div ref={grid2container} className="flex items-center justify-center h-full w-full">
+            <div ref={grid2container} className="flex relative items-center justify-center h-full w-full">
                 <p className="flex items-end text-5xl text-gray-500">
-                Code is Magic, Code is Craft
+                Try Dragging the objects, the CV one is to download CV :D
                 </p>
-                <Card style={{rotate:"75deg" ,top:"30%", left:"20%"}} text="Grasp"/>
-                <Card text="Solid" style={{rotate:"-30deg" ,top:"40%", left:"40%"}} containerRef={grid2container}/>
-                <Card text="Design patterns" style={{rotate:"90deg" ,top:"30%", left:"60%"}} containerRef={grid2container}/>
+                <Card
+                  text="CV"
+                  className='relative rounded-2xl'
+                  containerRef={grid2container}
+                  style={{ rotate: "-30deg", top: "40%", left: "40%" }}
+                  draggable={false}
+                  onClick={() => {
+                    window.open('https://drive.google.com/uc?export=download&id=19pw5evxY2fjQnkvghL81sV-N4isV8D56', '_blank');//Just adding a gdrive link to download CV, Anchor downloading with movable card not working
+                  }}
+                />
+                {/* <Card text="Design patterns" style={{rotate:"90deg" ,top:"30%", left:"60%"}} containerRef={grid2container}/>
                 <Card text="Design Pattersn" style={{rotate:"25deg" ,top:"60%", left:"10%"}} containerRef={grid2container}/>
-                <Card text="SRP" style={{rotate:"35deg" ,top:"58%", left:"80%"}} containerRef={grid2container}/>
+                <Card text="SRP" style={{rotate:"35deg" ,top:"58%", left:"80%"}} containerRef={grid2container}/> */}
                 <Card image="assets/logos/csharp-pink.png" style={{rotate:"35deg" ,top:"58%", left:"50%"}} containerRef={grid2container}/>
                 <Card image="assets/logos/dotnet-pink.png" style={{rotate:"-45deg" ,top:"70%", left:"25%"}} containerRef={grid2container}/>
                 <Card image="assets/logos/blazor-pink.png" style={{rotate:"90deg" ,top:"20%", left:"85%"}} containerRef={grid2container}/>
