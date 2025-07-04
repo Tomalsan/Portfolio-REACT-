@@ -22,7 +22,7 @@ const CopyEmailButton = () => {
       >
         <p className="flex items-center justify-center gap-2 cover">
           <img src="assets/copy.svg" className="w-5 h-5" alt="email icon" />
-          Copy Email Address
+          Email Address
         </p>
       </motion.button>
       <Toast message="Email copied to clipboard!" show={copied} />

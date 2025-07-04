@@ -26,9 +26,9 @@ const About = () => {
                 </p>
                 <Card
                   text="CV"
-                  className='relative rounded-2xl'
+                  className='relative rounded-2xl border-b-blue-900'
                   containerRef={grid2container}
-                  style={{ rotate: "-30deg", top: "40%", left: "40%" }}
+                  style={{ rotate: "-35deg", top: "30%", left: "30%" }}
                   draggable={false}
                   onClick={() => {
                     window.open('https://drive.google.com/uc?export=download&id=19pw5evxY2fjQnkvghL81sV-N4isV8D56', '_blank');//Just adding a gdrive link to download CV, Anchor downloading with movable card not working
