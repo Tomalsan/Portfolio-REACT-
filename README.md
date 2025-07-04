@@ -1,12 +1,24 @@
-🚀 Towfiq Ul Iqbal Tomal — Portfolio
+
 Welcome to my personal developer portfolio!
 Built with React, Vite, and Tailwind CSS, this site showcases my journey, projects, and passion for modern web development — including interactive 3D models and creative UI concepts.
 
 🌟 Live Demo
-Check out the live site →
+Check out the live site → https://portfolio-react-iota-eight.vercel.app/
 
 📱 Preview
-<table> <tr> <td><img src="https://pplx-res.cloudinary.com/image/private/user_uploads/77595205/d391bdbf-6643-4c70-a942-07716249b773/About-Me.jpg" alt="About Me" width="400"/></td> <td><img src="https://pplx-res.cloudinary.com/image/private/user_uploads/77595205/aa3a6a3d-945e-44d8-8a8e-9e6882117965/Selected-Projects.jpg" alt="Selected Projects" width="400"/></td> </tr> <tr> <td><img src="https://pplx-res.cloudinary.com/image/private/user_uploads/77595205/8c0b4115-df23-4379-b7ae-618bb8890184/Co-Curricular-Activities.jpg" alt="Co-Curricular Activities" width="400"/></td> <td><img src="https://pplx-res.cloudinary.com/image/private/user_uploads/77595205/69ef34ec-3fe3-45cc-8983-a3598149ee9b/Mobile-View.jpg" alt="Mobile View" width="400"/></td> </tr> </table>
+<<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Tomalsan/Portfolio-REACT-/main/public/assets/Home.jpg" alt="About Me" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/Tomalsan/Portfolio-REACT-/main/public/assets/About Me .jpg" alt="Selected Projects" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Tomalsan/Portfolio-REACT-/main/public/assets/Co-Curricular Activities.jpg" alt="Co-Curricular Activities" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/Tomalsan/Portfolio-REACT-/main/public/assets/Selected Projects.jpg" alt="Mobile View" width="400"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/Tomalsan/Portfolio-REACT-/main/public/assets/Mobile View.jpg" alt="Co-Curricular Activities" width="400"/></td>
+  </tr>
+</table>
 🛠️ Features
 ⚡ Modern React + Vite stack for blazing-fast performance
 
@@ -32,12 +44,12 @@ Explored 3D graphics and animation in the browser
 Built reusable, accessible, and modern components
 
 🤝 Connect with Me
-LinkedIn
+<div className="flex flex-col">
+  
+<a href="https://www.linkedin.com/in/towfiq-ul-iqbal-tomal-11a875246/">LinkedIn</a>
 
-Portfolio Live
-
-Email
-
+<a href="https://portfolio-react-iota-eight.vercel.app/">Portfolio Live</a>
+</div>
 “Building secure, creative, and robust web applications — one project at a time.”
 
 Feel free to fork, star, or reach out if you want to collaborate!
