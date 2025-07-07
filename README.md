@@ -86,13 +86,6 @@ This project is ready for deployment on platforms like **Vercel**, **Netlify**, 
 3. Set up build command: `npm run build`
 4. Set output directory: `dist`
 
-## 📚 What I Learned
-
-- Deepened my knowledge of **React** and **JavaScript**
-- Mastered **Tailwind CSS** for utility-first UI development
-- Explored **3D graphics and animation** in the browser
-- Built reusable, accessible, and modern components
-
 
 ## 🤝 Connect with Me
 
