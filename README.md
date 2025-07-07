@@ -27,7 +27,7 @@ A modern, interactive developer portfolio built with **React**, **Vite**, and **
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v20+ recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 
 ### Installation
@@ -43,16 +43,12 @@ cd Portfolio-REACT-
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. **Start the development server:**
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 4. **Open your browser:**
