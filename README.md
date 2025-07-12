@@ -5,7 +5,7 @@ A modern, interactive developer portfolio built with **React**, **Vite**, and **
 
 ## 🚀 Overview
 
-**Portfolio React** is a fast, responsive, and visually engaging developer portfolio. It highlights my skills, selected projects, and creative UI solutions, all powered by a modern web stack.
+This is a fast responsive, and visually engaging developer portfolio. It highlights my skills, selected projects, and creative UI solutions, all powered by REACT.
 
 ## 📸 Preview
 
