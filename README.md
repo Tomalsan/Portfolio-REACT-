@@ -1,7 +1,6 @@
 
 
-# Portfolio React – Developer Portfolio
-
+# Towfiq's Dev Portfolio
 A modern, interactive developer portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my journey, projects, and creative UI concepts, including interactive 3D models, with a focus on performance, accessibility, and responsive design.
 
 ## 🚀 Overview
@@ -44,10 +43,10 @@ flowchart TD
     A[HomePage] --> B[About Me]
     A --> C[Projects]
     A --> D[Co-Curricular Activities]
-    A --> E[Contact]
+    A --> E[Testimonial/Marquee Demo]
     C --> F[Project Details]
-    E --> G[CV Download]
-    E --> H[Contact]
+    B --> G[CV Download]
+    B --> H[Send Message]
 ```
 
 
